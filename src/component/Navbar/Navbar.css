@@ -1,0 +1,74 @@
+/* Define Color Variables for Consistency */
+:root {
+    --primary-color: #007bff;
+    --hover-color: #0056b3;
+    --light-color: #ecdede;
+    --dark-bg-color: #333;
+    --dark-border-color: #444;
+    --dropdown-bg-color: #c99d95;
+  }
+  
+  /* General Navbar Styles */
+  .navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar-brand {
+   
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-link,
+  .dropdown-item {
+    color: #fff;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link:hover,
+  .dropdown-item:hover {
+    color: #ccc;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown-toggle {
+   
+    color: #333;
+    padding: 10px;
+    
+  }
+  
+  .dropdown-menu {
+    background-color: var(--dark-bg-color);
+    border-color: var(--dark-border-color);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: var(--dark-border-color);
+  }
+  
+  /* Button Styles */
+  button {
+    width: 150px;
+    padding: 10px;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  
+  

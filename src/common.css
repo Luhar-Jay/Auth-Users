@@ -1,0 +1,52 @@
+
+.form-group {
+    display: flex !important;
+    flex-direction: column; /* Align inputs and errors in column direction */
+  }
+  
+  .form-control {
+    padding: 10px !important;
+    font-size: 16px;
+    width: 100%; /* Make the input full width */
+    margin-bottom: 10px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px !important; /* Small margin to separate label from input */
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px; /* Space between input and error message */
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .sign-up-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    
+    margin-top: 15px;
+  }
+  
+  .sign-up-link p {
+    cursor: pointer;
+  }
+  
